@@ -1,21 +1,32 @@
 void main(){
- int number = 23;
- int number2 = 76;
+ var birthday = false;
+ if(birthday == true){
+   print('Yups, today is your birthday');
+ }else{
+   print("upss.. you have to waiting for one month");
+ }
+ for(int x = 1; x <= 100; x++){
+   if(x % 3 == 0){
+     print("$x selamat anda mendapatkan undian tv");
+   }else if(x % 5 == 0){
+     print("$x selamat kamu mendapatkan undian kulkas");
+   }else if(x % 3 == 0 && x % 5 == 0){
+     print("$x selamat kamu mendapatkan undian laptop");
+   }else{
+     print("$x maaf kamu belum beruntung");
+   }
+ }
 
- String name = "Bakrie";
- String last_name = "umarella";
-
- print( number * number2); // we can use all of math function
-
- print("my name is " + name + " " + last_name);
- print("my firstname is $name");
- print("my lastname is $last_name");
-
-/**
- * note
- * in variables-interaction variables must add $ if you were not add $ that's not call as variables
- */
-
+ var nilai = 60;
+ if(nilai >=85){
+   print("A");
+ }else if(nilai >= 75){
+   print("B");
+ }else if(nilai >=65){
+   print("C");
+ }else{
+   print("D");
+ }
 
 
 }
