@@ -1,10 +1,14 @@
 void main(){
-  List<int> myList = [8,34, 9];
-  print(myList[0]);
 
   List<String> name = ["Kevin", "Nerd", "Yusuf"];
-  print(name[2]);
+ 
 
-  List<dynamic> differentType = ["covid-19", true, 29, 1.9];
-  print(differentType[0]);
+  for(int i = 1; i <10; i++){
+    print("angka ke $i");
+  }
+
+  for(int x = 0; x < name.length; x++){
+     print(name[x]);
+  }
+
 }
