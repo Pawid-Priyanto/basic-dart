@@ -1,12 +1,8 @@
 void main() {
-  sayHi("Pacar");
-  add(9, 34);
+ print(add(35, 15));
 }
 
-void sayHi(String status){
-  print("hai $status");
-}
 
-void add(int x, int y){
-  print(x * y);
+int add(int x, int y){
+  return x * y;
 }
