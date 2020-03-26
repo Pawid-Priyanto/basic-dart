@@ -3,15 +3,19 @@ void main(){
 
  String name = "Bakrie";
 
- double bilbul = 2.2;
 
- bool isActive = false;
 
- var male = true;
+/**
+ * constant
+ * constant variables can't be assign a new value
+ */
 
+const username = "kevin hermawan";
+
+ print(username);
  print(name);
  print(number);
- print(bilbul);
- print(isActive);
- print(male);
+ number = 90;
+ print(number);
+
 }
