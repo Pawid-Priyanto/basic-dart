@@ -5,16 +5,16 @@ void main(){
 
   print(Bakrie.name);
   print(Bakrie.age);
+  Bakrie.add();
 }
 
 class Pot{
   String name;
   int age;
 
-  // Pot(String name, int age){
-  //   this.name = name;
-  //   this.age = age;
-  // }
-
   Pot(this.name, this.age);
+
+  void add(){
+    print("ini tambahan method");
+  }
 }
