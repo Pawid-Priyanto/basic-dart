@@ -1,14 +1,14 @@
 void main(){
 
-  List<String> name = ["Kevin", "Nerd", "Yusuf"];
- 
+  var Bakrie = Pot();
+  Bakrie.name = "Bakrie";
+  Bakrie.age = 27;
 
-  for(int i = 1; i <10; i++){
-    print("angka ke $i");
-  }
+  print(Bakrie.name);
+  print(Bakrie.age);
+}
 
-  for(int x = 0; x < name.length; x++){
-     print(name[x]);
-  }
-
+class Pot{
+  String name;
+  int age;
 }
