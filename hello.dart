@@ -1,23 +1,8 @@
 void main(){
-  var buudy = Pet();
-  buudy.age = 8;
-  print(buudy.age);
-  buudy.hasBirthday();
-
-}
-
-class Pet extends animal{
- String name;
-
- void hasBirthday(){
-   super.hasBirthday();
- }
-}
-
-class animal{
-  int age;
-
-  void hasBirthday(){
-    print("Happy Birthday");
-  }
+  Map<String, dynamic> persons = {
+    "Prabu" : 43,
+    "Baduy" : 23,
+    "Andri" : "aku"
+  };
+  print(persons["Andri"]);
 }
