@@ -1,20 +1,14 @@
 void main(){
+  var buudy = Pet();
+  buudy.age = 8;
+  print(buudy.age);
 
-  var Bakrie = Pot("Ghandi", 23);
- 
-
-  print(Bakrie.name);
-  print(Bakrie.age);
-  Bakrie.add();
 }
 
-class Pot{
-  String name;
+class Pet extends animal{
+ String name;
+}
+
+class animal{
   int age;
-
-  Pot(this.name, this.age);
-
-  void add(){
-    print("ini tambahan method");
-  }
 }
