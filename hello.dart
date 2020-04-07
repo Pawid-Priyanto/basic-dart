@@ -1,21 +1,21 @@
-// A functtion declaration
-int timesTwo(int x){
-  return x * 2;
-}
+// A list literal
+var lostNumbers = [8, 19, 78, 65, 98];
 
-// Arrow syntax is shorthand for `{ return expr }`
-int timesFour(int x) => timesTwo(timesTwo(x));
+//  A map literall
+var nobleGases = {
+  'He' : "Helium",
+  'Ne' : 'Neon',
+  'Ar' : 'Argon',
+};
 
-// Function are object.
-int runTwice(int x, Function f) {
-  for (var i = 0; i < 2; i++) {
-    x = f(x);
-  }
-  return x;
-}
-
+// A set literall
+var frogs = {
+  'Tree',
+  'Poison dart',
+  'Glass'
+};
 main() {
-  print("4 times 2 is ${timesTwo(4)}");
-  print("4 times 4 is ${timesFour(4)}");
-  print("2 x 2 x 2 is ${runTwice(2, timesTwo)}");
+  print(lostNumbers[2]);
+  print(nobleGases['Ne']);
+  print(frogs.difference({'Tree'}));
 }
