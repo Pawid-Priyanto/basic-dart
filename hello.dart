@@ -1,9 +1,18 @@
 main() {
-  int x = 0;
-  do {
-    print("antrian nomor $x");
-    x++;
-  } while(x <= 20);
-  
+ dynamic nilai = "A";
+ switch(nilai){
+   case "C" :
+   print("nilai kamu dibawah kkm");
+   break;
+   case "B" :
+   print("nilai kamu standart banget");
+   break;
+   case "A" : 
+   print("nilai kamu bagus");
+   break;
+   default :{
+     print("nilai kamu tidak ada");
+   }
+ }
 }
 
