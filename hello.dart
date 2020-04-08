@@ -1,9 +1,9 @@
 main() {
   int x = 0;
-  while (x < 100){
-    print("antrian ke $x");
+  do {
+    print("antrian nomor $x");
     x++;
-  }
+  } while(x <= 20);
+  
 }
 
-// same with for bedanya pada pengecekan
